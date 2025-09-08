@@ -8,4 +8,4 @@ class User(AbstractUser):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
 
-    # password already exists in the User field, we're just using AbstractUser to modify a few fields of our choice as we deem fit
+    # password and password already exist in the User field, we're just using AbstractUser to modify a few fields of our choice as we deem fit
